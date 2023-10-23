@@ -20,6 +20,7 @@ import fittrack.command.ViewWorkoutsCommand;
 import fittrack.command.ViewProfileCommand;
 import fittrack.command.BmiCommand;
 import fittrack.command.SaveCommand;
+import fittrack.command.CalorieSumCommand;
 import fittrack.data.Weight;
 
 import java.time.format.DateTimeParseException;
@@ -103,6 +104,8 @@ public class CommandParser {
             return new BmiCommand();
         case SaveCommand.COMMAND_WORD:
             return new SaveCommand();
+        case CalorieSumCommand.COMMAND_WORD:
+            return new CalorieSumCommand();
         default:
             return new InvalidCommand();
         }
