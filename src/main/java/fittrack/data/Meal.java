@@ -21,4 +21,8 @@ public class Meal {
     public String toString() {
         return String.format("[M] %s (%s, %s)", name, calories, date);
     }
+
+    public Calories getCalories(){
+        return calories;
+    }
 }
