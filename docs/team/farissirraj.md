@@ -58,7 +58,8 @@ Fit Track is a comprehensive fitness tracker software designed to monitor and an
 * **Code Contributed:** [RepoSense Link](https://nus-cs2113-ay2324s1.github.io/tp-dashboard/?search=farissirraj&breakdown=false&sort=groupTitle%20dsc&sortWithin=title&since=2023-09-22&timeframe=commit&mergegroup=&groupSelect=groupByRepos)
 
 
-* **Project Management:**
+
+#### Project Management
   - Contributed to the releases of the Project.
   - Open regular pull requests to update the team on the progress of the project.
   - Assigned pull request to certain issues of the project.
@@ -67,13 +68,13 @@ Fit Track is a comprehensive fitness tracker software designed to monitor and an
   - Participated in regular code reviews were done using in person after the tutorial slot and online to ensure all new features implemented were in accordance with the required coding standards.
   - Similar channels were used to do code reviews or pair programming for bug fixes when extensive integration with the codebase was required.
 
-* **Challenges Faced:**
+#### Challenges Faced:
   - Implementing the steps functionality was particularly challenging as it was an idea that was not initially thought of in the beginning of the project. So, when the parser, storage classes and other files were already setup, then I decided         to implement the steps suite of features. A lot of work was in modifying the pre-existing classes like `Command`, `Storage` and `Command Parser` to ensure that all the new commands pertaining to the `Step` class was integrated seamlessly.
   - Moreover, with other new functionalities coming in from the `Meal` ans `workoutList` from the other developers, the merge conflicts became increasingly difficult to resolve. Here is where we confrenced over video call with screen sharing to       ensure that the conflicts were resolved in the best possible way.
   - Some features like `getstepssuggestion` and `checkrecommendedweight` required some additional research into the ways the calories and weights could be computed. This had to be carefully studied and tests had to be written to ensure         
     consistency and reliability over future iterations.
 
-* **Documentation:**
+#### Documentation:
   - User Guide:
     - Documented my added features to the user guide.
     - Added documentation for the features `addsteps`, `deletesteps`, `viewsteps`, `caloriesconsumed`, `getstepssuggestion`, `totalsteps` and `checkrecommendedweight` to allow the new user to start using this project.
